@@ -26,5 +26,4 @@ for ori_name in file_list:
             else:
                 # 有重复文件名
                 new_name = temp_name
-        os.rename(ori_name,new_name)
-        print(ori_name+' completed')
+        os.rename(ori_name, new_name)
